@@ -105,6 +105,12 @@ class MainActivity : Activity() {
     override fun onResume() {
         super.onResume()
         settings.prefs.registerOnSharedPreferenceChangeListener(prefListener)
+        // If the EQ should be on but its service was stopped (restart, update, killed), bring it back
+        if (settings.enabled) {
+            runCatching {
+                startForegroundService(Intent(this, EqService::class.java).setAction(EqService.ACTION_APPLY))
+            }
+        }
         refresh()
     }
 
