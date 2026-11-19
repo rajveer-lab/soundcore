@@ -63,13 +63,9 @@ toward a research-backed target curve, and then lets you season it to taste.
 
 ## How it works
 
-```mermaid
-flowchart LR
-    A["Profile filters<br/>+ your sliders"] --> B["Response curve<br/>(RBJ biquad maths)"]
-    B --> C["32 log-spaced<br/>EQ bands"]
-    C --> D["Android DynamicsProcessing<br/>pre-EQ · headroom · limiter"]
-    D --> E["Every app's audio"]
-```
+<p align="center">
+  <img src="docs/how-it-works.svg" alt="Profile and sliders → response curve → 32 EQ bands → DynamicsProcessing → every app" width="100%">
+</p>
 
 Each profile is a list of parametric filters (peaking, low-shelf and high-shelf), the same format Equalizer APO and AutoEq use.
 Sound Tuner calculates the combined frequency response, samples it into 32 bands and loads them into Android's built-in
