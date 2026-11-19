@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SoundTuner" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorPrimary">@color/bg</item>
+        <item name="android:colorPrimaryDark">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:textColorPrimary">@color/text</item>
+    </style>
+
+    <style name="SectionTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="SliderLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFeatureSettings">tnum</item>
+    </style>
+
+    <style name="Slider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical">12dp</item>
+        <item name="android:progressTint">@color/accent</item>
+        <item name="android:progressBackgroundTint">@color/grid</item>
+        <item name="android:thumbTint">@color/accent</item>
+    </style>
+</resources>

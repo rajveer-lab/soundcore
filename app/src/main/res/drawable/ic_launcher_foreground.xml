@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Five EQ bars, kept inside the 66dp adaptive-icon safe zone -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="@color/accent" android:pathData="M29,49a3,3 0 0 1 6,0v10a3,3 0 0 1 -6,0z" />
+    <path android:fillColor="@color/accent" android:pathData="M40,42a3,3 0 0 1 6,0v24a3,3 0 0 1 -6,0z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M51,36a3,3 0 0 1 6,0v36a3,3 0 0 1 -6,0z" />
+    <path android:fillColor="@color/accent" android:pathData="M62,44a3,3 0 0 1 6,0v20a3,3 0 0 1 -6,0z" />
+    <path android:fillColor="@color/accent" android:pathData="M73,48a3,3 0 0 1 6,0v12a3,3 0 0 1 -6,0z" />
+</vector>
